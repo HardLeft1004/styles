@@ -15,7 +15,7 @@
     <category field="engineering"/>
     <issn>1000-9361</issn>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2014-09-26T17:00:10+00:00</updated>
+    <updated>2025-05-02 17:44:08</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -37,7 +37,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name form="long" initialize="false" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="all" sort-separator=" "/>
+      <name form="long" initialize="true" initialize-with="" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="all" sort-separator=" "/>
       <label form="long" prefix=", "/>
       <substitute>
         <names variable="editor"/>
